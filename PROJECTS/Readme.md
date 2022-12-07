@@ -1,1 +1,1 @@
-# This contains all the details of the projects.
+# This contains all the details of the projects which comes inside the project folder.
