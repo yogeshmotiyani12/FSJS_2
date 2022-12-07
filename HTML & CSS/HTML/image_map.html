@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image</title>
+</head>
+<body>
+    <img 
+    usemap= "#image-map"
+    src="./image/docker.png" alt="Docker">
+    <map name="image-map">
+        <area target="" alt="" onclick = "myfuncone()" title="" href="" coords="41,25,196,137" shape="rect">
+        <area target="" alt="" onclick = "myfunctwo()"title="" href="" coords="214,204,8,147" shape="rect">
+    </map>
+   
+    <script>
+        function myfuncone(){
+            alert("You clicked one. ")
+        }
+        function myfunctwo(){
+            alert("You clicked two times. ")
+        }
+    </script>
+</body>
+</html>
