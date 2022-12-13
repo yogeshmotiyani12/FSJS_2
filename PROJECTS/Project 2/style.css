@@ -5,5 +5,29 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins';
 } 
+
+.container{
+    background-image: url("assets/bg.png");
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* height: 15vh; */
+}
+
+.list{
+    margin-right: 300px ;
+}
+
+.list-item{
+    display: flex;
+    margin-right: 70px;
+    list-style: none;
+    color: grey;
+    cursor: pointer;
+}
