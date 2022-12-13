@@ -21,17 +21,18 @@ body {
 }
 
 .navbar{
+    background-color: #000000;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 22px 20px;
 }
 
-.list{
-    margin-right: 300px ;
-}
 
 .list-item{
-    display: flex;
+    display: inline;
+    color: #ffffff;
     margin-right: 70px;
     list-style: none;
+    font-weight: 450;
 }
