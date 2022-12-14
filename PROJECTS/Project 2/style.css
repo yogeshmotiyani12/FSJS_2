@@ -32,7 +32,26 @@ body {
 .list-item{
     display: inline;
     color: #ffffff;
-    margin-right: 70px;
+    margin-right: 40px;
     list-style: none;
     font-weight: 450;
+    font-size: 15px;
+    padding-right: 30px; 
+    cursor: pointer;
+}
+
+.line {
+    border-left: 1px solid white;
+    height: 60px;
+    padding-left: 100px;
+}
+
+.button-small{
+    background-color: #c05fc5;
+    color: white;
+    border: none;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-right: 100px;
+    padding: 20px 50px;
 }
