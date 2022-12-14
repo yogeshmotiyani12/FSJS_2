@@ -18,6 +18,7 @@ body {
 
 .navbar img {
     width: 100px;
+    margin-left: 100px;
 }
 
 .navbar{
@@ -43,15 +44,50 @@ body {
 .line {
     border-left: 1px solid white;
     height: 60px;
-    padding-left: 100px;
+    padding-left: 500px;
 }
 
 .button-small{
     background-color: #c05fc5;
     color: white;
     border: none;
-    font-weight: 600;
+    font-weight: 550;
+    letter-spacing: 1px;
     border-radius: 5px;
-    margin-right: 100px;
-    padding: 20px 50px;
+    margin-right: 60px;
+    padding: 8px 25px;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    color: #fff;
+    overflow: hidden;
+}
+
+.hero h1{
+    font-family: 'Montserrat';
+    color: #ffffff;
+    font-size: 60px;
+}
+
+.hero p{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.button-large{
+    color: #ffffff;
+    background-color: #c05fc5;
+    border: none;
+    border-radius: 9px;
+    padding: 15px 20px;
+    font-size: 25px;
+    font-weight: 590;
+    letter-spacing: 1px;
+    margin-top: 60px;
 }
