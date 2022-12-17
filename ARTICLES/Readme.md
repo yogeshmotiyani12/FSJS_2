@@ -1,4 +1,4 @@
-# This contains the details of articles I have written as part of FSJS 2.
+# This folder contains all the details of articles I have written as part of FSJS 2.
 
 ## This are the articles I have written so far I will be adding more in the future.
 
