@@ -10,7 +10,6 @@
 
 .container {
     background-image: url('./assets/bg.png');
-    /* position: fixed; */
     background-size: 100% 100%; 
     background-repeat: no-repeat;
     height: 100vh;
@@ -23,20 +22,19 @@
     color: white;
     justify-content: space-around;
     align-items: center;
-    margin-left: auto;
     font-weight: 500;
-    padding: 20px 0px;
+    /* padding-right: 10px; */
     height: 90px; 
 }
 
 .logo{
-    height:35px;
+    height:30px;
     margin-left: 40px; 
 }
 
 .list{
     display: flex;
-    gap: 50px;
+    gap: 45px;
     margin-right: 500px;
 }
 
@@ -44,13 +42,13 @@
     display: flex;
     list-style: none;
     cursor: pointer;
+    margin-left: 20px;
 }
 
 .list-item:first-child::after {
     display: inline-block;
     content: "\02C5";
-    margin-left: 5px;
-    margin-top: 5px;
+    margin-top: 6px;
     font-size: 20px;
 }
 
@@ -58,7 +56,7 @@
 .line {
     border-right: 1px solid white;
     height: 50px;
-    margin-right: 25px;
+    margin-right: 10%;
 }
 
 .button-small{
@@ -67,7 +65,7 @@
     border: none;
     font-weight: 550;
     letter-spacing: 1px;
-    border-radius: 5px;
+    border-radius: 6px;
     margin-right: 60px; 
     padding: 10px 25px;
 }

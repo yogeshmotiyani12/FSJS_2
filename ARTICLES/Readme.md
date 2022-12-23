@@ -13,3 +13,5 @@
 4. [Let's change webpage look using Flex box](https://yogeshmotiyani.hashnode.dev/lets-change-webpage-look-using-flexbox)
 
 5. [Array in JS and its different methods](https://yogeshmotiyani.hashnode.dev/array-in-js-and-its-different-methods)
+
+6. [Beginner guide to Git and GitHub](https://yogeshmotiyani.hashnode.dev/beginner-guide-to-git-and-github)
