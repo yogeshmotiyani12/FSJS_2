@@ -23,41 +23,42 @@
     justify-content: space-around;
     align-items: center;
     font-weight: 500;
-    /* padding-right: 10px; */
-    height: 90px; 
+    height: 10vh;
 }
 
 .logo{
     height:30px;
     margin-left: 40px; 
+    margin-top: 12px;
+}
+
+.line {
+    border-right: 1px solid white;
+    height: 50px;
+    margin-right: 5px;
 }
 
 .list{
     display: flex;
-    gap: 45px;
-    margin-right: 500px;
+    gap: 60px;
+    margin-right:700px;
 }
 
 .list-item {
     display: flex;
     list-style: none;
     cursor: pointer;
-    margin-left: 20px;
+    margin-top: 20px;
 }
 
 .list-item:first-child::after {
     display: inline-block;
     content: "\02C5";
-    margin-top: 6px;
-    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 25px;
 }
 
-
-.line {
-    border-right: 1px solid white;
-    height: 50px;
-    margin-right: 10%;
-}
 
 .button-small{
     background-color: #c05fc5;
@@ -71,26 +72,29 @@
 }
 
 .hero {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;
-    color: #fff;
+    color: #ffffff;
     overflow: hidden;
 }
 
 .hero-heading{
     font-family: 'Montserrat';
     color: #ffffff;
-    font-size: 80px;
+    font-size: 70px;
     text-align: center;
-    width: 900px;
+    width: 750px;
+    margin-top: -21%;
+
 }
 
 .hero p{
     color: #ffffff;
-    font-size: 30px;
+    font-size: 26px;
     font-weight: 500;
 }
 
