@@ -40,6 +40,9 @@ nav div img {
 
 .button-group{
     display: flex;
+    margin-left: 400px;
+    margin-top: 20px;
+    gap: 20px;
 }
 
 
