@@ -1,2 +1,45 @@
 /* You can not modify anything from the HTML file */
 /* You can only modify the CSS file */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-container {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+nav div img {
+    height: 40px;
+    margin-left: 50px;
+  }
+
+.list {
+    display: flex;
+    margin-left: 210px;
+    margin-top: 20px;
+    list-style: none;
+    gap: 40px;
+    font-size: 20px;
+    font-weight: 450;
+    font-family: "Orbitron"; 
+  }
+
+.list-item{
+    display: flex;
+    cursor: pointer;
+}
+
+.list-item:nth-child(1) {
+    font-weight: bold;
+    border-bottom: 3px solid black;
+  }
+
+.button-group{
+    display: flex;
+}
+
+
