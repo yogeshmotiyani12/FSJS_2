@@ -77,6 +77,9 @@ span{
     border-radius: 10px;
     background-color: #5955b3;
     color: #FFFFFF;
+    font-size: medium;
+    font-weight: 500;
+    
 }
 
 .banner-container img{
