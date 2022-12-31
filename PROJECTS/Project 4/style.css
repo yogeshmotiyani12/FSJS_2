@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /* Search */
+    box-sizing: border-box; 
     background: #F9F5ED;
 }
 nav{
@@ -17,8 +17,8 @@ nav ul {
 nav ul li {
     list-style: none;
     margin-right: 5%;
-    /* gap: 50px; */
     font-weight: 500;
+    font-family: sans-serif;
 }
 
 
@@ -47,7 +47,6 @@ main{
     margin: 5% 0;
     font-size: 17px;
     font-family: sans-serif;
-    /* font-style: ; */
 }
 
 
@@ -57,7 +56,7 @@ main{
     background-color: #3b855b;
     border-radius: 10px;
     color: white;
-    font-size: large;
+    font-size: medium;
     font-weight: bold;
 }
 
@@ -67,7 +66,17 @@ main{
     margin-left: 200px;
 }
 
-div img {
-    margin: auto;
-    padding: 10px 10px;
+img[alt="Image1"]{
+    width: 280px;
+    margin-right: 20px;
+    margin-bottom: 18px;
 }
+
+img[alt="Image2"]{
+    width: 270px;
+    margin-bottom: 18px;;
+}
+
+img[alt="Image3"] {
+    height: 283px;
+  }
