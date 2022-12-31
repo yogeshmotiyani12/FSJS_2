@@ -46,6 +46,21 @@ nav div img {
 }
 
 .nav-button{
-  padding: 10px 20px 10px 20px;
-  
+  padding: 4px 35px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-family: sans-serif;
+  background-color: white;
+  /* font-weight: 100; */
+}
+
+
+/* Hero Section */
+
+.globe {
+  /* background-image: url(./assets/globe.png); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20%;
 }
