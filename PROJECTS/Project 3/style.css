@@ -51,14 +51,12 @@ nav div img {
   font-size: 18px;
   font-family: sans-serif;
   background-color: white;
-  /* font-weight: 100; */
 }
 
 
 /* Hero Section */
 
 .globe {
-  /* background-image: url(./assets/globe.png); */
   display: flex;
   align-items: center;
   justify-content: center;
