@@ -15,3 +15,5 @@
 5. [Array in JS and its different methods](https://yogeshmotiyani.hashnode.dev/array-in-js-and-its-different-methods)
 
 6. [Beginner guide to Git and GitHub](https://yogeshmotiyani.hashnode.dev/beginner-guide-to-git-and-github)
+
+7. [HTML Media tags - Audio and Video](https://yogeshmotiyani.hashnode.dev/html-media-tags-audio-and-video)
