@@ -18,6 +18,7 @@ nav{
     justify-content: space-between;
     padding: 0 5%;
 }
+
 nav ul{
     display: flex;
     align-items: center;
@@ -49,7 +50,7 @@ main section {
 }
 
 .topangle{
-    width: 25px;
+    width: 35px;
 }
 
 .leftsection h1{
@@ -109,6 +110,7 @@ main section {
 
 .doctor{
     position: absolute;
+    margin-right: 20px;
     right: 0;
     bottom: 0;
     height: 90%;
