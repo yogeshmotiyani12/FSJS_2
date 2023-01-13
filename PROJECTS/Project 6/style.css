@@ -10,7 +10,10 @@
 .navbar-container {
     display: flex;
     align-items: center;
+    justify-content: space-around;
     gap:30px;
+    padding: 20px 15%;
+    margin-right: 100px;
 }
 
 .logo{
@@ -39,9 +42,44 @@
 .nav-button{
     margin-top: 20px;
     padding: 15px 25px;
-    font-size: large;
-    font-weight: bold;
-    color: yellow;
+    margin-right: 90px;
+    font-size: 16px;
+    font-weight:bold;
+    color: #988935;
     border-radius: 8px;
-    border-color: #ccac53;
+    border: 1px solid #908233;
+    cursor: pointer;
+}
+
+
+.hero{
+    display: flex;
+    color: white;
+    margin-top: 100px;
+    margin-left: 140px;
+    gap:50px;
+}
+
+.hero-heading{
+    width: 600px;
+    font-size: 70px;
+    font-weight: 900;
+    margin-left: 300px;
+    margin-bottom: 40px;
+}
+
+.hero-description{
+    width:350px;
+    font-size: 20px;
+    margin-top: 25px;
+    line-height: 30px;
+    /* padding: 12px 12px; */
+    /* margin-right: 30px; */
+}
+
+.banner-img{
+    height: 600px;
+    width: 1000px;
+    margin-top:50px;
+    margin-left: 23%;
 }
