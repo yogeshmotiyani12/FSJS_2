@@ -11,5 +11,5 @@ Refer all the articles from here  -> [ARTICLES](https://github.com/yogeshmotiyan
 
 Refer all HTML & CSS Projects from here -> [PROJECTS](https://github.com/yogeshmotiyani12/FSJS_2/tree/main/PROJECTS)
 
-
+Refer JS Assignments from here -> [JS Assignments](https://github.com/yogeshmotiyani12/FSJS_2/tree/main/JS%20Assignments)
 
