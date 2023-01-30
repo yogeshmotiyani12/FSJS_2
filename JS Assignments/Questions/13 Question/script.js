@@ -4,6 +4,4 @@
 
 let present_age = prompt("Enter your age:")
 
-present_age >= 18 ? alert("You are old enough to drive") : alert(`Wait for another ${18 - present_age} years you need to turn 18 and start driving.`);
-
-
+present_age >= 18 ? alert("You are old enough to drive") : alert(`Wait for another ${18 - present_age} years you need to turn 18`);

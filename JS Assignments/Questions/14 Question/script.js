@@ -9,5 +9,6 @@ function checkEvenNum(Num) {
     }
 }
 checkEvenNum(20);
+checkEvenNum(13);
 
 
