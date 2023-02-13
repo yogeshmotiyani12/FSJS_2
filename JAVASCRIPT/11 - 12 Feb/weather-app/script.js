@@ -28,7 +28,7 @@ const getData = async (event) => {
   // Fetch Details
 
   const fetchData = await fetch(
-    `http://api.weatherapi.com/v1/current.json?key=1&q=${city}`
+    `http://api.weatherapi.com/v1/current.json?key=f3e2601d828a4730923110736231102&q=${city}`
   );
 
   const orgData = await fetchData.json();
