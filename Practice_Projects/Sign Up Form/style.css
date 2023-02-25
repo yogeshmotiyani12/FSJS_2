@@ -1,0 +1,109 @@
+
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background: url('digital-art.jpg')no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.form-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 700px;
+    height: 450px;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,0.5);
+    border-radius: 20px;
+}
+
+
+h2{
+    font-size: 2em;
+    color: #ffffff;
+    text-align: center;
+}
+
+.input-box{
+    position: relative;
+    margin: 30px 0;
+    width: 300px;
+    border-bottom: 2px solid #ffffff;
+}
+
+
+.input-box label {
+    position: absolute;
+    top: 30%;
+    left: 5px;
+    transform: translateY(-50);
+    color: #ffffff;
+    font-size: 1em;
+    transition: .7s;
+}
+
+input:focus ~ label,
+input:valid ~ label{
+    top: -10px;
+}
+
+.input-box input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 2em;
+    padding:0 35px 0 5px;
+    color: #ffffff;
+}
+
+.input-box ion-icon{
+    position: absolute;
+    right: 8px;
+    color: #ffffff;
+    font-size: 1.4em;
+    top: 15px;
+}
+
+
+button{
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background: #ffffff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: large;
+    font-weight:800;
+}
+
+
+.login{
+    font-size: 1em;
+    color: #ffffff;
+    text-align: center;
+    margin: 25px 0 10px;
+}
+
+.login p a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.login p a:hover{
+    text-decoration: underline;
+}
