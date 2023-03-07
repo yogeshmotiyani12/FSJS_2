@@ -13,3 +13,4 @@ Refer all HTML & CSS Projects from here -> [PROJECTS](https://github.com/yogeshm
 
 Refer JS Assignments from here -> [JS Assignments](https://github.com/yogeshmotiyani12/FSJS_2/tree/main/JS%20Assignments/Questions)
 
+Refer practice projects from here -> [Practice_Projects](https://github.com/yogeshmotiyani12/FSJS_2/tree/main/Practice_Projects)
