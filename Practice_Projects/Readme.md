@@ -1,0 +1,1 @@
+# Readme file for all the practice projects
