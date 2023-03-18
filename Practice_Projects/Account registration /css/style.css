@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -22,10 +23,9 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
-.image-top{
+.img-top{
     position: absolute;
     height: 500px;
     top: 0;
@@ -45,3 +45,46 @@ main{
 .flex-column {
     flex-direction: column;
 }
+
+.form-direction{
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 50px;
+    width: 75%;
+}
+
+.form-direction h1{
+    font-size: 40px;
+    margin: 25px 0;
+    color: #343333;
+    text-transform: capitalize;
+}
+
+input {
+    font-size: 20px;
+    padding: 10px 30px;
+    border-radius: 8px;
+    border: 2px solid #a7a7a7;
+    margin-bottom: 10px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px 0px;
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: #f59e2e; 
+    border: none;
+    outline: none;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+
+
