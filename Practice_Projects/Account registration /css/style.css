@@ -66,6 +66,8 @@ input {
     border-radius: 8px;
     border: 2px solid #a7a7a7;
     margin-bottom: 10px;
+    width: 100%;
+    margin: 0px 5px 10px 5px;
 }
 
 .row{
@@ -84,7 +86,52 @@ input {
     outline: none;
     margin-bottom: 15px;
     border-radius: 8px;
+    margin-top: 10px;
 }
 
 
+.btn:hover{
+    background-color: #1d1d1d;
+}
 
+.btn-facebook{
+    background-color: #354c8d;
+}
+
+.btn-twitter{
+    background-color: #009fe9;
+}
+.btn-gmail{
+    background-color: #BF3325;
+}
+
+
+@media screen and (max-width: 600px){
+    .form-direction{
+        padding: 20px 30px;
+    }
+
+    .row{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 5%;
+    }
+
+    .mock-up{
+        display: none;
+
+    }
+    main{
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+    .btn{
+        align-items: center;
+        justify-content: center;
+    }
+
+
+}
+    
