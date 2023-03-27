@@ -7,6 +7,7 @@
 
 body{
     background-color:  #151515;
+    font-family: sans-serif;
 }
 
 
@@ -18,9 +19,20 @@ nav {
     align-items: center;
   }
 
-.nav-list-left > nav-list{
+.nav-list-left .nav-list{
     display: flex;
+    /* font-size: 20px; */
     list-style: none;
     cursor: pointer;
     color: white;
+    gap: 50px;
+}
+
+.nav-list-right{
+    display: flex;
+    /* font-size: 20px; */
+    color: white;
+    list-style: none;
+    gap:20px;
+    cursor: pointer;
 }
