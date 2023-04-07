@@ -86,19 +86,22 @@ nav {
     justify-content: flex-start;
     align-items: center;
     position: relative;
-    gap: 10px;
+    gap: 20px;
     
 }
 
-.pink-bg {
+.get-start-btn .pink-bg {
+    position: absolute;
+    margin-right: 80%;
+  }
+
+
+.customer-details{
     display: flex;
-    align-items: flex-start;
+    margin-top: 40px;
+    gap: 40px;
 }
 
-
-
-/* .back-cards,
-.front-cards {
-  z-index: -1;
-  position: absolute;
-} */
+.happy-customers{
+    display: flex;
+}
