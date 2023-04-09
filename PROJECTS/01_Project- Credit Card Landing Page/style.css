@@ -81,6 +81,7 @@ nav {
 
 .get-start-btn {
     margin-top: 50px;
+    margin-left: 30px;
     font-size: small;
     display: flex;
     justify-content: flex-start;
