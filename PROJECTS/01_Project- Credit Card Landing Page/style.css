@@ -100,9 +100,22 @@ nav {
 .customer-details{
     display: flex;
     margin-top: 40px;
-    gap: 40px;
+    gap: 50px;
 }
 
-.happy-customers{
+.happy-users{
+    display: flex;    
+    margin-top: 10px;
+}
+
+/* .happy-users h1{
+    font-size: large;
+    font-weight: 900;
+} */
+
+
+.active-info{
     display: flex;
+    flex-direction: column;
+    margin-left: 4em;
 }
