@@ -6,6 +6,7 @@
 }
 
 body{
+    /* max-width: 1440px; */
     background-color:  #151515;
     font-family: sans-serif;
 }
@@ -33,13 +34,13 @@ nav {
     /* font-size: 20px; */
     color: white;
     list-style: none;
-    gap:90px;
+    gap:80px;
     cursor: pointer;
 }
 
 .pink-bg {
     position: absolute;
-    right: 155px;
+    right: 10rem;
 }
 
 .all-cards{
@@ -48,15 +49,15 @@ nav {
     width: 100%;
     justify-content: space-between;
     align-items: flex-start;
-    z-index: 2;
-    overflow-x: hidden;
+    /* z-index: 2; */
+    /* overflow-x: hidden; */
 }
 
 .left-section{
     display: flex;
     flex-direction: column;
     margin-left: 90px;
-    margin-top: 40px;
+    margin-top: 80px;
     color: white;
     width: 100%;
     gap:40px;
@@ -99,7 +100,7 @@ nav {
 
 .customer-details{
     display: flex;
-    margin-top: 40px;
+    margin-top: 50px;
     gap: 50px;
 }
 
@@ -108,14 +109,40 @@ nav {
     margin-top: 10px;
 }
 
-/* .happy-users h1{
-    font-size: large;
-    font-weight: 900;
-} */
+.happy-users > h1{
+    font-size: 40px;
+    font-weight: 500;
+}
 
+.happy-users > h1 > span {
+    color:#f637ec
+}
 
-.active-info{
+.active-info > h3{
     display: flex;
     flex-direction: column;
-    margin-left: 4em;
+    font-weight: 100;
+    margin-left: 1em;
+}
+
+.company-experience {
+    display: flex;
+    margin-top: 10px;
+}
+
+
+.company-experience > h1 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.company-experience > h1 > span {
+    color:#f637ec
+}
+
+
+.right-section{
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
 }
