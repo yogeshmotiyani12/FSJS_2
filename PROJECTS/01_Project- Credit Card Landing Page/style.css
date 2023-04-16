@@ -140,9 +140,16 @@ nav {
     color:#f637ec
 }
 
-
 .right-section{
     display: flex;
     flex-direction: column;
     margin-right: 30px;
+    /* padding-bottom: 30px; */
+}
+
+.front-cards{
+    display: flex;
+    flex-direction: column;
+}
+
 }
