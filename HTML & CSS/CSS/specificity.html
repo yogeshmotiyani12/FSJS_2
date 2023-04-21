@@ -1,0 +1,37 @@
+<!-- CSS works from top to bottom but it also depends on the specificity of the property 
+we apply the specificity and  and then it will apply acc to that and goes from left to right(higher one goes first)-->
+<!-- Using the important keyword is a bad idea and if we want to specify other 
+    property important then we use other important element so its recommended to not use it-->
+<!-- Which is more specific will overwrite the other and comes first -->
+<!-- Ids are very specific and very hard to overwrite thats why we use classes in place of Ids -->
+<!-- For More refer specificity calcultor -> https://specificity.keegan.st/  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specificity</title>
+    <!-- 0-> important keyword, 0->id selector, 0->class selector, 0->element   -->
+    <!-- order goes from left to right -->
+    <style>
+        /* 0, 1, 0, 0 */
+        #heading-id {
+            color: red;
+        }
+        /* 0, 0, 1, 0 */
+        .header{
+            color: green;
+        }
+        /* 1, 0, 0, 1 */
+        h2{
+            color: blue !important;
+        }
+    </style>
+</head>
+<body>
+    <h2 id="heading-id" class="header"> Lorem ipsum dolor sit amet </h2>
+    <p id="paragrah-id" class="paragraph"> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+</body>
+</html>
