@@ -1,0 +1,32 @@
+
+body{
+    background-color: lightblue;
+}
+
+header, #footer{
+    background-color: purple;
+}
+
+.header-text, #footer{
+    color: white;
+    text-align: center;
+}
+
+.blog-heading{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.blog-date{
+    font-style: italic;
+}
+
+.blog-date, .author{
+    color: gray;
+}
+
+/* #footer{
+    background-color: purple;
+    color: white;
+    text-align: center;
+
+} */
