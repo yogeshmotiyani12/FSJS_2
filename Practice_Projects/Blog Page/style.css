@@ -10,6 +10,8 @@ header, #footer{
 .header-text, #footer{
     color: white;
     text-align: center;
+    padding-bottom: 10px;
+    /* margin-bottom: 10px; */
 }
 
 .blog-heading{
