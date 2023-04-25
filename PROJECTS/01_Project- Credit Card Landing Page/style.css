@@ -13,7 +13,6 @@ body{
 
 }
 
-
 nav {
     display: flex;
     justify-content: space-between;
@@ -61,15 +60,16 @@ nav {
     margin-top: 80px;
     color: white;
     width: 100%;
-    gap:40px;
-
+    gap: 50px;
 }
 
 .left-section > h1{
+    display: flex;
     font-family: 'Manrope' sans-serif;
-    font-weight:100;
-    font-size: 75px;
-}
+    font-weight: 200;
+    font-size: 5.5rem;
+    flex-direction: column;
+    }
 
 .left-section > h1 > span {
     font-weight: bold;
@@ -143,15 +143,21 @@ nav {
 
 .right-section{
     display: flex;
-    left: 220px;
     position: absolute;
     justify-content: flex-end;
-    margin-bottom: 50%;
-
 } 
+
+.right-section > img {
+    position: relative;
+    width: 60%;
+}
 
 .back-cards {
-    /* margin-bottom: 2 ; */
-    display: flex;
-    /* margin-left: 10rem */
-} 
+    top: -65px;
+    left: 820px;
+  }
+  
+.front-cards {
+    top: 0px;
+    left: 240px;
+  }
