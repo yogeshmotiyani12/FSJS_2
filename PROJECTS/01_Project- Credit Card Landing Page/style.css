@@ -50,6 +50,7 @@ nav {
     width: 100%;
     justify-content: space-between;
     align-items: flex-start;
+    /* overflow-x: hidden; */
     /* z-index: 1; */
 }
 
@@ -57,27 +58,32 @@ nav {
     display: flex;
     flex-direction: column;
     margin-left: 90px;
-    margin-top: 80px;
+    margin-top: 60px;
     color: white;
-    width: 100%;
-    gap: 50px;
+    gap: 35px;
+    width: 80%;
 }
 
 .left-section > h1{
-    display: flex;
+    /* display: flex;
+    flex-direction: column; */
     font-family: 'Manrope' sans-serif;
-    font-weight: 200;
-    font-size: 5.5rem;
-    flex-direction: column;
+    font-weight: 100;
+    font-size: 4.6rem;
     }
 
-.left-section > h1 > span {
+.left-section > h1 > span { 
+    display: flex;
+    flex-direction: column;
     font-weight: bold;
     color: #f637ec;
 }
   
 .left-section > p {
-    letter-spacing: 1px;
+    letter-spacing: 2px;
+    margin-left: 5px;
+    font-size: 1.9rem;
+    /* font-weight: 100; */
     width: 60%;
 }
 
@@ -90,7 +96,6 @@ nav {
     align-items: center;
     position: relative;
     gap: 20px;
-    
 }
 
 .get-start-btn .pink-bg {
@@ -161,3 +166,4 @@ nav {
     top: 0px;
     left: 240px;
   }
+
