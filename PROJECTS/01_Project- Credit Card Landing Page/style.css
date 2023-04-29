@@ -74,8 +74,6 @@ nav {
     }
 
 .left-section > h1 > span { 
-    display: flex;
-    flex-direction: column;
     font-weight: bold;
     color: #f637ec;
 }
@@ -197,31 +195,19 @@ nav {
     flex-wrap: wrap;
   }
 
-.right-service-heading {
-    position: relative;
-    right: 50px;
-    width: 35%;
-    align-self: center;
-    font-family: "Manrope", sans-serif;
-    font-size: 1.2rem;
-    line-height: 30px;
-    color: #d1cfcf;
-    word-spacing: 4px;
-  }
-  
-/* .left-service-info {
-    padding: 20px 0px 20px 50px;
-    font-family: "Manrope", sans-serif;
-    font-size: 4rem;
-    font-weight: 600;
-    text-align: left;
-    letter-spacing: 3px;
-    width: 65%;
-    align-self: center;
-  }
-  
-.left-service-info > span {
-    color: #cd2eca;
+.right-service-heading > h1 {
+    font-family: 'Manrope' sans-serif;
+    font-weight: 100;
+    font-size: 3.5rem;
+    color: white;
+    margin-top: 10rem;
+    margin-left: 90px;
+    width: 45%;
+    }
+
+.right-service-heading > h1 > span{
+    display: inline-block;
     font-weight: bold;
-    font-size: 4.5rem;
-  } */
+    color: #f637ec;
+    }
+
