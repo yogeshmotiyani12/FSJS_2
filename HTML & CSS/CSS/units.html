@@ -1,0 +1,67 @@
+<!-- To undertand about different types of units in CSS -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Units</title>
+    <style>
+        .parent{
+            /* pixel unit is based on the screen size it will different for diffent screen size or A set sizes which never changes with the screen size*/
+            width: 200px;  
+            border: 1px solid black;
+            font-size: 30px;
+
+        }
+
+        .item{
+            background-color: red;
+            /* height: 20px; */
+            margin: 5px 0;
+        }
+
+
+        .item-percentage{
+            /* The percentage unit is not based on the size of the screen but they depend on the size of the parent */
+            width: 50%; 
+        }
+        .item-vw{
+            /* The view width is depend on the size of the screen ot the size of the viewport*/
+            width: 50vw;
+            /* The view height is also depend on the size of the screen and the height of the page will act accordingly */
+            /* height: 50vh; */
+        }
+
+        .rem{
+            /* rem works based on the root font size -(root font size is 16px) */
+            font-size: 2rem;
+        }
+
+        .em{
+            /* em works based on the parent font size */
+            /* 100% is 1em 200% is 2em and so on  */
+            font-size: 2em;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="item item-percentage">50 percent</div>
+    <div class="item item-vw">50 view width(vw)</div>
+    <div class="item rem">1 REM</div>
+    <div class="item 1em">1 EM</div>
+    
+    <div class="parent">
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item item-percentage">50 percent</div>
+        <!-- it will work as per the size of the screen and not as per the parent -->
+        <div class="item item-vw">50 view width(vw)</div>
+        <div class="item rem">1 REM</div>
+        <div class="item 1em">1 EM</div>
+    </div>
+    
+</body>
+</html>
