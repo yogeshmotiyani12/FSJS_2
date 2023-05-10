@@ -7,7 +7,7 @@ Refer HTML & CSS from here -> [HTML & CSS](https://github.com/yogeshmotiyani12/F
 
 Refer Javascript from here -> [JAVASCRIPT](https://github.com/yogeshmotiyani12/FSJS_2/tree/main/JAVASCRIPT)
 
-Refer ReactJS from here -> [REACTJS](https://github.com/yogeshmotiyani12/FSJS_2/tree/main/ReactJS)
+Refer ReactJS from here -> [REACTJS](https://github.com/yogeshmotiyani12/FSJS_2/tree/main/React%20JS)
 
 Refer all the articles from here  -> [ARTICLES](https://github.com/yogeshmotiyani12/FSJS_2/tree/main/ARTICLES)
 
