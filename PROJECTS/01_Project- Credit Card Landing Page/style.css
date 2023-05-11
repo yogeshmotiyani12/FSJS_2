@@ -80,7 +80,6 @@ nav {
 }
   
 .left-section > p {
-    /* letter-spacing: px; */
     margin-left: 5px;
     font-size: 1.8rem;
     width: 60%;
@@ -199,7 +198,7 @@ nav {
 .right-service-heading > h1 {
     font-family: 'Manrope' sans-serif;
     font-weight: 100;
-    font-size: 3.5rem;
+    font-size: 4.5rem;
     color: white;
     margin-top: 10rem;
     margin-left: 90px;
