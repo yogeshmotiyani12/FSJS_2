@@ -206,7 +206,7 @@ nav {
     padding-bottom: 100px;
   }
 
-.sevices-top-content {
+.services-top-content {
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -217,9 +217,10 @@ nav {
   }
 
 .left-service-heading > h1 {
+    padding: 20px 0px 20px 50px;
     font-family: 'Manrope' sans-serif;
-    font-weight: 100;
-    font-size: 4rem;
+    font-weight: 500;
+    font-size: 3rem;
     color: white;
     margin-top: 10rem;
     margin-left: 90px;
