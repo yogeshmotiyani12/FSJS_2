@@ -220,7 +220,7 @@ nav {
     padding: 20px 0px 20px 50px;
     font-family: 'Manrope' sans-serif;
     font-weight: 500;
-    font-size: 3rem;
+    font-size: 3.8rem;
     color: white;
     margin-top: 10rem;
     margin-left: 90px;
@@ -237,7 +237,7 @@ nav {
 .right-service-info{
     position: relative;
     /* right: 10px; */
-    width: 35%;
+    /* width: 40%; */
     align-self: center;
     font-family: "Manrope", sans-serif;
     font-size: 1.2rem;
@@ -245,6 +245,8 @@ nav {
     color: #d1cfcf;
     /* border:1px solid white; */
     word-spacing: 4px;
+    margin-left: 40rem;
+    margin-top: -15rem;
 }
 
 .services-bottom-content{
