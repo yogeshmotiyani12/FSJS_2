@@ -210,7 +210,7 @@ nav {
     display: flex;
     flex-direction: row;
     width: 100%;
-    margin-top: 100px;
+    margin-top: 20px;
     justify-content: center;
     padding-bottom: 40px;
     flex-wrap: wrap;
@@ -220,11 +220,12 @@ nav {
     padding: 20px 0px 20px 50px;
     font-family: 'Manrope' sans-serif;
     font-weight: 500;
-    font-size: 3.8rem;
+    font-size: 4rem;
+    text-align: left;
     color: white;
-    margin-top: 10rem;
-    margin-left: 90px;
-    width: 45%;
+    margin-top: 5rem;
+    margin-left: 2rem;
+    width: 65%;
     }
 
 .left-service-heading > h1 > span{
@@ -236,17 +237,15 @@ nav {
 
 .right-service-info{
     position: relative;
-    /* right: 10px; */
-    /* width: 40%; */
+    left: 25%;
+    width: 35%;
     align-self: center;
     font-family: "Manrope", sans-serif;
-    font-size: 1.2rem;
-    line-height: 30px;
+    font-size: 1.3rem;
+    line-height: 25px;
     color: #d1cfcf;
-    /* border:1px solid white; */
     word-spacing: 4px;
-    margin-left: 40rem;
-    margin-top: -15rem;
+    margin-top: -18rem;
 }
 
 .services-bottom-content{
@@ -266,21 +265,24 @@ nav {
     position: relative;
     text-align: center;
     color: white;
-    height: 250px;
-    width: 300px;
-    font-size: small;
+    height: 271px;
+    width: 301px;
+    font-size: medium;
     padding: 1em;
+    margin: 1rem;
 }
 
 .card-1 {
     background-color: #272727;
-    margin: 3rem;
-    /* padding: 10px; */
  }
-
 
 .card-2 {
     background-color: #4f4d4c;
+    position: relative;
+    top: -50px;
+    height: 271px;
+    width: 301px;
+    text-align: center;
   }
 
 .card-3 {
@@ -294,12 +296,12 @@ nav {
     height: 271px;
     width: 301px;
     background-color: #d1cfcf;
-    border-width: 1px;
+    border-width: 2px;
     border-style: solid;
-    border-image: linear-gradient(-230deg, white, #272727) 1;
+    border-image: linear-gradient(-240deg, white, #272727) 1;
     z-index: -1;
     left: -2px;
-    top: -4px;
+    top: -2px;
 }
   
 .card-2::before {
@@ -313,7 +315,7 @@ nav {
     border-image: linear-gradient(-230deg, white, #272727) 1;
     z-index: -1;
     left: -3px;
-    top: -5px;
+    top: -3px;
  }
   
 .card-3::before {
@@ -322,10 +324,10 @@ nav {
     height: 271px;
     width: 301px;
     background-color: #d1cfcf;
-    border-width: 1px;
+    border-width: 2px;
     border-style: solid;
     border-image: linear-gradient(-230deg, white, #272727) 1;
     z-index: -1;
     left: -2px;
-    top: -4px;
+    top: -2px;
 }
