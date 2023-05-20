@@ -331,3 +331,206 @@ nav {
     left: -2px;
     top: -2px;
 }
+
+
+.diff-cards-info{
+    padding-top: 100px;
+    width: 100%;
+    background-color: #fceffb;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: "Manrope", sans-serif;
+}
+
+.diff-cards-info > h3{
+    font-size: 4rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+.diff-cards-info > h2{
+    color:#f801f4;
+    font-size: 4rem;
+    text-align: center;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.diff-cards-info > p{
+    padding-top: 70px;
+    font-size: 1.1rem;
+    color: #525252;
+    width: 60%;
+    letter-spacing: 2px;
+}
+
+.cards-options {
+    width: 80%;
+    position: relative;
+    top: -30px;
+  }
+
+.customer-reviews{
+    padding-top: 100px;
+    padding-bottom: 140px;
+    width: 100%;
+    background-color: #141212f5;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: "Manrope", sans-serif;
+    gap: 90px;
+    position: relative;
+    z-index: 2;
+    }
+
+.customer-reviews > h2 {
+    width: 79%;
+    font-size: 3.8rem;
+    text-align: center;
+    font-weight: 400;
+    color: #e6e5e5;
+    letter-spacing: 3px;
+    }
+
+.customer-reviews > h2 > span{
+    color:#f801f4;
+}
+
+.customer-reviews > p{
+    top: 10px;
+    font-size: 1.1rem;
+    width: 50%;
+    letter-spacing: 2px;
+}
+
+.reviews-cards {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 100px;
+  }
+
+
+.reviews-cards > .review {
+    height: 240px;
+    width: 450px;
+    font-size: 0.5rem;
+    gap: 20px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 30px 25px;
+    cursor: pointer;
+    transition: all 0.8s ease-in-out;
+}
+
+.reviews-cards > .review::before {
+    content: "";
+    position: absolute;
+    height: 242px;
+    width: 452px;
+    border-width: 1px;
+    border-style: solid;
+    border-image: linear-gradient(180deg, white, #272727) 1;
+    z-index: -1;
+    left: -1px;
+    top: -2px;
+}
+
+.reviews-cards > .review > p {
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+}
+
+.customer-location {
+    font-size: 0.8rem;
+    padding-top: 1px;
+}
+  
+
+.review-1 {
+    background-image: linear-gradient(
+      to bottom right,
+      rgb(63, 62, 62),
+      rgb(61, 61, 61)
+    );
+  }
+  
+.review-2 {
+    background: #191e22;
+}
+
+.review-3 {
+    background: #191e22;
+}
+
+.review-4 {
+    background: #191e22;
+}
+
+
+.review-icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+.long-icon {
+        height: 18px;
+        width: 80px;
+        border-radius: 15px;
+        border: none;
+        background-color: #f547f2;
+        box-shadow: 0px 0px 30px 0px #f547f2;
+        cursor: pointer;
+    }
+
+.circular-icon {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #525252;
+    border: none;
+    cursor: pointer;
+}
+
+
+.banner-container {
+    width: 100%;
+    height: 500px;
+    /* background: url(".\Assets\Photos\Rectangle\6773.png"); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    z-index: -3;
+    opacity: 0.9;
+  }
+  
+.diamond-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+.diamond-img > img {
+    width: 400px;
+    height: 400px;
+    transform: scaleX(-1);
+  }
+  
+.diamond-img > :nth-child(2) {
+    position: absolute;
+    right: 0px;
+    top: 30px;
+  }
+  
