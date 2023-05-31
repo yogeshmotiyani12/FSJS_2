@@ -37,6 +37,12 @@
 
 [Live link](https://the-law-page.netlify.app/)
 
+# Project 7
+
+[Source code](https://github.com/yogeshmotiyani12/FSJS_2/tree/main/PROJECTS/Project%207)
+
+[Live link](https://credit-card-landing-page-site.netlify.app/)
+
 
 
 

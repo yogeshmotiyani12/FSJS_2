@@ -1,5 +1,7 @@
-# Replicate the Following Output
+# PROJECT 6
 
-`Assests are Provided!`
+## Credit Card Landing Page
 
-![Project 1](./Credit%20card%20landing%20page.png)
+### Made using HTML and CSS
+
+[Credit Card Lnding Page](https://credit-card-landing-page-site.netlify.app/)
