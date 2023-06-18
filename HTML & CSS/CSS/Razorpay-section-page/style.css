@@ -1,0 +1,27 @@
+
+body{
+    background-color: #1d1d1d;
+}
+
+header{
+    height: 80vh;
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(224, 15, 95, 0.711),
+        rgba(230, 25, 203, 0.697)
+        ),
+        url(Cyclist.jpg);
+
+    background-size: cover;
+    background-position: top;
+    /* This will be used to create a different types of clips for the images 
+    For more design and clip inspiration refer https://bennettfeely.com/clippy/ */
+    clip-path: polygon(100% 0, 100% 67%, 79% 100%, 0 76%, 0 0);
+}
+
+header h1{
+    color: white;
+    font-size: 70px;
+    padding-top: 25%;
+    padding-left: 25%;
+}
