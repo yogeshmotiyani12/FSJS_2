@@ -101,30 +101,43 @@ nav {
   }
 
 .get-started-btn {
-background-color: #0c8bfd;
+    background-color: #0c8bfd;
 }
 
 .get-started-btn:hover {
-outline: 1px solid #ffffff;
-background-color: #111010;
-color: #ffffff;
+    outline: 1px solid #ffffff;
+    background-color: #111010;
+    color: #ffffff;
 }
 
 .start-free-btn {
-outline: 1px solid #ffffff;
-background-color: #111010;
-color: #ffffff;
+    outline: 1px solid #ffffff;
+    background-color: #111010;
+    color: #ffffff;
 }
 
 .start-free-btn:hover {
-outline: none;
-background-color: #0c8bfd;
+    outline: none;
+    background-color: #0c8bfd;
 }
 
 .hero-right-section {
-width: 50%;
+    width: 50%;
 }
 
 .group-img {
-width: 70%;
+  top: 20px;
+  width: 90%;
+}
+
+
+.logos {
+  width: 100%;
+  padding: 30px 10px;
+  background-color: #292929;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 90px;
+  flex-wrap: wrap;
 }
