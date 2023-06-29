@@ -398,17 +398,20 @@ nav {
     border-radius: 12rem;
   }
 
-.subs-card-2 {
+.plan-2 {
   background-color: #0c8bfd;
   color: #ffffff;
 }
-.subs-card-2 > .given-benefits-container {
+
+.plan-2 > .given-benefits-container {
   color: #ffffff;
 }
-.subs-card-2 > button {
+
+.plan-2 > button {
   background-color: #ffffff;
   color: #0c8bfd;
 }
-.subs-card-2 > h1 > span {
+
+.plan-2 > h1 > span {
   color: #d6c9c9;
 }
