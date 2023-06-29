@@ -312,12 +312,103 @@ nav {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 6rem 0rem;
+  padding: 3rem 3rem;
   background-color: #111010;
 }
 
 .plans-container{
   color: #ffffff;
   height: 40vh;
-  /* padding: 0 20rem;   */
+  padding: 0rem 20rem;  
+}
+
+.plans-container > h1 {
+  text-align: center;
+  font-size: 2.9rem;
+  /* align-self: top; */
+}
+
+/* .arrow-left {
+  padding-bottom: 30%;
+} */
+
+
+.diff-plan-rates{
+  display: flex;
+  justify-content: center;
+  gap: 2.3rem;
+  padding: 5rem;
+  /* flex-direction: column; */
+  background-color: #ffffff;
+}
+
+.diff-plan{
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  background-color: #ffffff;
+  color: #111010;
+  padding: 2.4rem;
+  border-radius: 2.5rem;
+  cursor: pointer;
+}
+
+.diff-plan > h3 {
+  font-size: 2rem;
+}
+
+.diff-plan > h1 {
+  font-size: 3rem;
+}
+
+.diff-plan > h1 > span {
+  font-size: 1.3rem;
+  color: #8C8C8C;
+}
+
+.diff-plan > p {
+  font-size: 0.83rem;
+}
+
+.diff-plan > hr {
+  border: 1px solid #cac8c8;
+}
+
+.plan-benefits{
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+  justify-content: flex-start;
+  color: #1d1c1c;
+}
+
+.benefits{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+
+.diff-plan > button {
+    background-color: #0c8bfd;
+    padding: 1rem 0rem;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 12rem;
+  }
+
+.subs-card-2 {
+  background-color: #0c8bfd;
+  color: #ffffff;
+}
+.subs-card-2 > .given-benefits-container {
+  color: #ffffff;
+}
+.subs-card-2 > button {
+  background-color: #ffffff;
+  color: #0c8bfd;
+}
+.subs-card-2 > h1 > span {
+  color: #d6c9c9;
 }
