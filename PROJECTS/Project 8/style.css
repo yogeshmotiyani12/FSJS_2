@@ -312,7 +312,7 @@ nav {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 5rem 0rem;
+  padding: 3rem 3rem;
   background-color: #111010;
 }
 
@@ -334,6 +334,7 @@ nav {
   justify-content: center;
   gap: 1.6rem;
   padding: 5rem 5rem;
+  /* color: #ffffff; */
 }
 
 .diff-plan{
@@ -352,7 +353,7 @@ nav {
 }
 
 .diff-plan > h1 {
-  font-size: 3rem;
+  font-size: 3.2rem;
 }
 
 .diff-plan > h1 > span {
@@ -362,6 +363,7 @@ nav {
 
 .diff-plan > p {
   font-size: 0.87rem;
+  font-weight: bold;
 }
 
 .diff-plan > hr {
@@ -371,17 +373,20 @@ nav {
 .plan-benefits{
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 2rem;
   justify-content: flex-start;
   color: #5a5656;
 }
 
 .benefits{
   display: flex;
-  flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   gap: 1rem;
+}
+
+.benefits > p{
+  font-weight: bold;
 }
 
 .diff-plan .select-btn {
@@ -409,4 +414,211 @@ nav {
 
 .plan-2 > h1 > span {
   color: #d6c9c9;
+}
+
+
+.cust-reviews{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  background-color: #ffffff;
+  padding: 7rem 6rem;
+}
+
+.review-headings{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 2rem 3rem;
+  flex-wrap: wrap;
+}
+
+.review-headings > h1 {
+  color: black;
+  width: 40%;
+  font-size: 3rem;
+}
+
+.review-headings > p{
+  font-size: 1.4rem;
+  width: 40%;
+  color: #5a5656a4;
+  /* padding-right: 1rem; */
+}
+
+.review-container {
+  display: flex;
+  gap: 3rem;
+}
+
+.reviews {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 1.7rem;
+  border: 2px solid #969292;
+  padding: 4rem 3rem;
+  cursor: pointer;
+  border-radius: 2rem;
+  background-color: #ffffff;
+}
+
+.review-1{
+  background-color: #070707;
+  color: #ffffff;
+  border-style: none;
+}
+
+.review-1 > p {
+  font-size: 1.9rem;
+  color: #dbd9d9ef;
+}
+
+.cust-details {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.cust-identity {
+  font-size: 0.8rem;
+}
+
+.ratings {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.reviews > p {
+  font-size: 1.3rem;
+  line-height: 2rem;
+}
+
+.line {
+  height: 10px;
+  width: 100%;
+  background-color: #9692927a;
+  border-radius: 2rem;
+  position: relative;
+}
+
+.blue-line {
+  border: 5px solid #0c8bfd;
+  width: 10%;
+  border-radius: 1rem;
+  position: absolute;
+}
+
+
+.sign-up-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #070707;
+  color: #ffffff;
+  padding: 3rem 5rem;
+  gap: 4rem;
+}
+
+
+.sign-up-section > h1 {
+  font-size: 3.5rem;
+  text-align: center;
+  font-weight: 800;
+  padding: 2rem 3rem;
+}
+
+
+.sign-up-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  border-radius: 30px;
+  background-color: #292828;
+  color: #dbd9d9ef;
+  padding: 3rem 6rem;
+  flex-wrap: wrap;
+}
+
+.sign-up-form > input {
+  padding: 1.3rem 2rem;
+  background-color: #494747;
+  border: none;
+  color: #ffffff;
+  border-radius: 30px;
+  font-size: 1rem;
+}
+
+
+.sign-up-form > input::placeholder {
+  color: #ffffff;
+  font-size: 1rem;
+  color: #969292;
+}
+
+.sign-up-btn {
+  padding: 1rem 2.4rem;
+  font-size: 1rem;
+  color: white;
+  border-radius: 30px;
+  background-color: #0c8bfd;
+  border-style: none;
+  cursor: pointer;
+}
+
+
+footer {
+  background-color: #070707;
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 5rem;
+  color: #b1b1b1;
+  gap: 3rem;
+}
+
+footer > hr {
+  border: 1px solid rgba(139, 139, 139, 0.377);
+}
+
+.footer-section-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 2rem 1rem;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.footer-items {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.footer-items > ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 1rem;
+}
+
+.footer-items > h1 {
+  font-size: 1.2rem;
+}
+
+.footer-items > ul > li {
+  font-size: 1rem;
+}
+
+.footer-items > ul > li:hover{
+  color:#ffffff;
+  cursor: pointer;
+}
+
+.logo {
+  width: 10%;
 }
