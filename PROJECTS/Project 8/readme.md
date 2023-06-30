@@ -1,5 +1,7 @@
-# Replicate the Following Output
+# PROJECT 8
 
-`Assests are Provided!`
+## Hosting site page
 
-![Project 2](./Hosting%20Landing%20Page.png)
+### Made using HTML and CSS
+
+[Hosting site page](https://the-hosting-site-page.netlify.app/)
