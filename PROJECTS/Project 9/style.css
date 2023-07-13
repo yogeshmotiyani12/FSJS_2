@@ -20,13 +20,13 @@ body{
 
 header {
     display: flex;
-  flex-direction: column;
-  background-image: url("./Assets/Photos/futuristic-bg.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-blend-mode: darken;
-  padding-bottom: 3em;
+    flex-direction: column;
+    background-image: url("./Assets/Photos/futuristic-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: darken;
+    padding-bottom: 3em;
   }
 
   
@@ -51,12 +51,3 @@ nav {
     color:white;
     gap: 40px;
 }
-
-/* .btn {
-border: none;
-background-color: transparent;
-font-family: "Manrope", sans-serif;
-color: var(--gray);
-cursor: pointer;
-padding: 1em 2em;
-} */
