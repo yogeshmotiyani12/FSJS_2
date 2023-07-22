@@ -7,47 +7,99 @@
 }
 
 body{
-    width: 100vw;
-    max-width: 1440px;
+    /* width: 100vw; */
+    max-width: 1400px;
     margin: 0px auto;
     font-family: "Manrope", sans-serif;
     overflow-x: hidden;
     display: flex;
     flex-direction: column;
-    background-color: #1f1f1f;
 }
 
 
-header {
+main {
     display: flex;
     flex-direction: column;
     background-image: url("./Assets/Photos/futuristic-bg.png");
     background-repeat: no-repeat;
     background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: darken;
     padding-bottom: 3em;
-  }
+}
 
   
 nav {
-    width: 85%;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    font-family: "Manrope", sans-serif;
-    font-weight: 400;
-    padding: 1rem 0.5rem;
-    position: relative;
+    gap: 3em;
+    padding: 1.5rem 7rem;
 }
 
-.nav-items{
+.nav-items {
     display: flex;
+    flex-wrap: wrap;
     font-size: 15px;
-    font-weight: bold;
     list-style: none;
     cursor: pointer;
     color:white;
-    gap: 40px;
+    gap: 3em;
+    padding-right: 12em;
+}
+
+
+.buttons{    
+    display: flex;
+    gap: 2em;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+}
+
+.btn {
+    border: none;
+    background-color: transparent;
+    font-family: "Manrope", sans-serif;
+    color: white;    ;
+    cursor: pointer;
+    padding: 1em 2em;}
+
+
+.sign-up-btn {
+    color: white;
+    outline: 1px solid #e6654c;
+    background-color: #e6654c;
+    font-weight: 800;
+}
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.hero-left-section {
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    padding: 2em 4em;
+}
+      
+.hero-label {
+    font-size: 2rem;
+    padding-left: 1.3em;
+    padding-top: 2em;
+    line-height: 2em;
+}
+
+.hero-info {
+    padding-left: 2.3em;
+    color: gray;
+    line-height: 1.5em;
 }
