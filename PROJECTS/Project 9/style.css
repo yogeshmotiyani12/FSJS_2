@@ -44,6 +44,7 @@ nav {
     display: flex;
     flex-wrap: wrap;
     font-size: 15px;
+    font-weight:700;
     list-style: none;
     cursor: pointer;
     color:white;
@@ -64,16 +65,17 @@ nav {
     border: none;
     background-color: transparent;
     font-family: "Manrope", sans-serif;
-    color: white;    ;
+    color: white;
     cursor: pointer;
-    padding: 1em 2em;}
+    padding: 1em 2em;
+    font-weight: 800;
+}
 
 
 .sign-up-btn {
     color: white;
     outline: 1px solid #e6654c;
     background-color: #e6654c;
-    font-weight: 800;
 }
 
 .hero-container {
@@ -103,3 +105,146 @@ nav {
     color: gray;
     line-height: 1.5em;
 }
+
+
+.hero-btn-container{
+    padding-left: 2.3em; 
+}
+
+
+.get-started-btn{
+    color: white;
+    background-color: #e6654c;
+    outline: 1px solid #e6654c;
+    margin-right: 20px;
+}
+
+.learn-more-btn{
+    color: white;
+    outline: 1px solid #ffffff;
+}
+
+.hero-right-section {
+    display: flex;
+    flex-direction: column;
+    padding: 0em 14em;
+    gap: 10em;
+}
+
+.play-btn {
+    cursor: pointer;
+    padding-top: 10em;
+    padding-left: 4em;
+  }
+
+.title-info{
+    display: flex;
+}
+
+.title-heading{
+    position: relative;
+}
+
+.line {
+    height: 2px;
+    width: 3rem;
+    background-color: #ffffff;
+    position: absolute;
+    top: 1em;
+    left: -4em;
+  }
+
+
+.title-heading > p {
+    padding: 8px 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.right-arrow {
+    align-self: flex-end;
+}
+
+.multiple-games{
+    display: flex;
+    flex-direction: column;
+    padding: 10em 4em;
+    gap: 2em;
+}
+
+.game-heading {
+    text-align: center;
+    font-size: 1.7rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+  }
+
+.games-container{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+
+.games{
+    min-height: 340px;
+    width: 290px;
+    display: flex;
+    align-items: flex-end;
+    color: #ffffff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -12rem 0;
+    cursor: pointer;
+}
+
+.game-1{
+    background-image: url("./Assets/Photos/image\ 2.png");
+}
+
+.game-2{
+    background-image: url("./Assets/Photos/image\ 3.png");
+    background-position: -6rem 0;
+}
+.game-3{
+    background-image: url("./Assets/Photos/image\ 4.png");
+    background-position: -9rem 0;
+}
+.game-4{
+    background-image: url("./Assets/Photos/Rectangle\ 56.png");
+}
+
+.game-stars {
+    display: flex;
+    align-items: center;
+    padding: 0.8em 1em;
+    gap: 2em;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    width: 100%;
+  }
+
+.games-details {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.games-details > h3 {
+    font-size: 1rem;
+  }
+
+.games-details > p {
+    color: #776769;;
+    font-size: 0.8rem;
+  }
+
+.download-game-btn {
+    background-color: #e6654c;
+    padding: 7px 5px;
+    color: #ffffff;
+    font-size: 0.9rem;
+}
+  
