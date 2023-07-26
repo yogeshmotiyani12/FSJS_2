@@ -7,7 +7,7 @@
 }
 
 body{
-    /* width: 100vw; */
+    width: 100vw;
     max-width: 1400px;
     margin: 0px auto;
     font-family: "Manrope", sans-serif;
@@ -250,5 +250,16 @@ nav {
 
 .explore-more-games {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    gap: 5rem;
+    padding: 7em 1em;
+    flex-wrap: wrap;
+ } 
+
+
+.explore-left {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
 }
