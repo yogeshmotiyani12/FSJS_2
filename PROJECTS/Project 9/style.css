@@ -252,14 +252,24 @@ nav {
     display: flex;
     justify-content: center;
     gap: 5rem;
-    padding: 7em 1em;
+    padding: 7em 2em;
     flex-wrap: wrap;
  } 
 
 
 .explore-left {
-    width: 300px;
-    height: 300px;
+    width: 40%;
+    /* height: 200px; */
     display: flex;
     justify-content: center;
 }
+
+
+.explore-left > img {
+    width: 100%;
+    min-width: 28px;
+    max-width: 600px;
+    height: 100%;
+    max-height: 350px;
+    min-height: 150px;
+  }
