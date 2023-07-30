@@ -123,7 +123,7 @@ nav {
     color: white;
     outline: 1px solid #ffffff;
 }
-
+learn-more-btn
 .hero-right-section {
     display: flex;
     flex-direction: column;
@@ -252,14 +252,13 @@ nav {
     display: flex;
     justify-content: center;
     gap: 5rem;
-    padding: 7em 2em;
+    padding: 5em 2em;
     flex-wrap: wrap;
  } 
 
 
 .explore-left {
     width: 40%;
-    /* height: 200px; */
     display: flex;
     justify-content: center;
 }
@@ -267,9 +266,70 @@ nav {
 
 .explore-left > img {
     width: 100%;
-    min-width: 28px;
-    max-width: 600px;
+    min-width: 40px;
+    max-width: 800px;
     height: 100%;
-    max-height: 350px;
     min-height: 150px;
+    max-height: 600px;
   }
+
+
+.explore-right{
+    font-size: large;
+    font-weight: 800;
+}
+
+.more-btns{
+    display: flex;
+    gap: 1em;
+}
+
+.explore-btn {
+    background-color:#e6654c;
+    color: #ffffff;
+  }
+
+.more-btns > .learn-more-btn{
+    color: #e6654c;
+    outline: 1px solid #e6654c;
+}
+
+.explore-right {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+
+.explore-heading {
+    text-align: start;
+    font-size: 1.5rem;
+}
+
+.details{
+    color: #A29899;
+    font-size: 0.9rem;
+}
+
+/* Game Recommendation System */
+
+.game-recommendation{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 4em 5em;
+    gap: 6em;
+}
+
+
+.top-details{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 3em;
+}
+
+.week-heading{
+    /* display: flex; */
+    font-size: 1.2em;
+}
