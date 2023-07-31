@@ -26,7 +26,7 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: darken;
-    padding-bottom: 3em;
+    padding-bottom: 8em;
 }
 
   
@@ -123,7 +123,7 @@ nav {
     color: white;
     outline: 1px solid #ffffff;
 }
-learn-more-btn
+
 .hero-right-section {
     display: flex;
     flex-direction: column;
@@ -133,7 +133,7 @@ learn-more-btn
 
 .play-btn {
     cursor: pointer;
-    padding-top: 10em;
+    padding-top: 12em;
     padding-left: 4em;
   }
 
@@ -156,7 +156,7 @@ learn-more-btn
 
 
 .title-heading > p {
-    padding: 8px 5px;
+    padding: 7px 5px;
     font-size: 1.2rem;
     font-weight: bold;
 }
@@ -330,6 +330,77 @@ learn-more-btn
 }
 
 .week-heading{
-    /* display: flex; */
-    font-size: 1.2em;
+    font-size: 1.4em;
+}
+
+
+.btn-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2em;
+    
+}
+
+.btn-container > .btn {
+    padding: 1em;
+}
+
+.arrow-left {
+    color: #F8E0DB;
+    background-color:#F8E0DB ;
+    width: 3rem;
+    padding: 1.2em 0.5em;
+
+}
+
+.arrow-right {
+    background-color: #e6654c;
+    width: 3rem;
+    padding: 1.2em 0.5em;
+}
+
+.arrow-right > img {
+    width: 1.7rem;
+}
+
+
+.recommend-games-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 5em;
+    flex-wrap: wrap;
+}
+
+.recommend-games-cards {
+    display: flex;
+    gap: 2em;
+    width: 40%;
+    min-width: 500px;
+    cursor: pointer;
+}
+
+.recommend-games-cards > img {
+    width: 40%;
+    min-width: 250px;
+}
+
+.headings{
+    font-size: 1.2rem;
+}
+
+.headings > h3{
+    padding: 3px 0;
+}
+
+.colored-text {
+    color: #e6654c;
+}
+
+.card-para {
+    font-size: 0.9rem;
+}
+
+.btn{
+    padding: 1em 2em;
 }
