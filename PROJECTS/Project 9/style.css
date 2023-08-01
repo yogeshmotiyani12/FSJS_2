@@ -385,6 +385,15 @@ nav {
     min-width: 250px;
 }
 
+
+.card-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1em;
+}
+
 .headings{
     font-size: 1.2rem;
 }
@@ -397,10 +406,10 @@ nav {
     color: #e6654c;
 }
 
-.card-para {
+.card-details > .card-para {
     font-size: 0.9rem;
 }
 
-.btn{
+.card-details > .btn{
     padding: 1em 2em;
 }
