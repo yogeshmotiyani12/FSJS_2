@@ -317,7 +317,7 @@ nav {
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding: 4em 5em;
+    padding: 5em 5em;
     gap: 6em;
 }
 
@@ -329,20 +329,19 @@ nav {
     gap: 3em;
 }
 
-.week-heading{
+.top-details > .week-heading{
     font-size: 1.4em;
 }
 
 
-.btn-container{
+.top-details > .btn-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 2em;
-    
 }
 
-.btn-container > .btn {
+.top-details > .btn-container > .btn {
     padding: 1em;
 }
 
@@ -381,8 +380,9 @@ nav {
 }
 
 .recommend-games-cards > img {
+    display: flex;
     width: 40%;
-    min-width: 250px;
+    min-width: 220px;
 }
 
 
@@ -399,7 +399,7 @@ nav {
 }
 
 .headings > h3{
-    padding: 3px 0;
+    padding: 4px 0;
 }
 
 .colored-text {
@@ -407,9 +407,16 @@ nav {
 }
 
 .card-details > .card-para {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
+    gap: 1em;
+    color: #A29899;
 }
 
 .card-details > .btn{
-    padding: 1em 2em;
+    padding: 1.5em 2.4em;
+}
+
+.download-button{
+    background-color:#e6654c;
+    color: #ffffff;
 }
