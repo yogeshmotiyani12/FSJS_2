@@ -381,8 +381,8 @@ nav {
 
 .recommend-games-cards > img {
     display: flex;
-    width: 40%;
-    min-width: 220px;
+    width: 20%;
+    min-width: 200px;
 }
 
 
@@ -407,16 +407,80 @@ nav {
 }
 
 .card-details > .card-para {
-    font-size: 0.8rem;
-    gap: 1em;
+    font-size: 0.9rem;
     color: #A29899;
 }
 
 .card-details > .btn{
-    padding: 1.5em 2.4em;
+    padding: 1em 2em;
 }
 
 .download-button{
     background-color:#e6654c;
+    font-weight: 400;
     color: #ffffff;
 }
+
+.most-played-games{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4em 6em 4em 0;
+    background-color: #1f1f1f;
+    gap: 2em;
+    position: relative;
+    z-index: 1;
+}
+
+.year-headings{
+    color: #ffffff;
+    font-size: 1.8em;
+}
+
+.info {
+    font-size: 1rem;
+    align-self: flex-end;
+    padding: 2em 6em;
+    line-height: 2rem;
+    color: #A29899;
+  }
+
+.game-of-the-world {
+    display: flex;
+    align-self: flex-end;
+    position: absolute;
+    right: 0em;
+    top: 40%;
+    z-index: -1;
+  }
+
+.mostly-played-games{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+    flex-wrap: wrap;
+  }
+
+.mostly-played-games > img {
+    max-width: 400px;
+    min-width: 250px;
+}
+
+
+.image-one {
+    width: 30%;
+    position: relative;
+    top: -5rem;
+  }
+
+.image-two {
+    width: 20%;
+    align-self: flex-end;
+  }
+
+.image-three {
+    width: 20%;
+    align-self: flex-end;
+  }
