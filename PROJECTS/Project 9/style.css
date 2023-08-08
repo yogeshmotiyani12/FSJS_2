@@ -9,7 +9,7 @@
 body{
     width: 100vw;
     max-width: 1400px;
-    margin: 0px auto;
+    margin: 0 auto;
     font-family: "Manrope", sans-serif;
     overflow-x: hidden;
     display: flex;
@@ -535,7 +535,7 @@ footer{
     flex-direction: column;
     background-color: #0a0a0a;
     gap: 2em;
-    padding-top: 5em;
+    padding: 5em 8em;
 }
   
 .footer-section{
@@ -546,6 +546,10 @@ footer{
     gap: 3em;
 }
 
+.footer-para{
+    color: #A29899;
+    line-height: 1.5em;
+}
 
 .footer-details{
     display: flex;
@@ -553,17 +557,24 @@ footer{
     list-style: none;
     gap: 1em;
     font-size: 1rem;
+    color: #A29899;
+    cursor: pointer;
+}
+
+.footer-details > h3 {
+    color: #ffffff;
 }
 
 .social-handles > img {
     width: 8rem;
-  }
+}
 
 .social-handle-icons {
     display: flex;
     gap: 1em;
-  }
+}
 
 .thin-line {
-  border-bottom: 1px solid #776769;
+    width: 100%;
+    border-bottom: 1px solid #A29899;
 }
