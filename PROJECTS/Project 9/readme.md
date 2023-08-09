@@ -1,5 +1,7 @@
-# Replicate the Following Output
+# PROJECT 9
 
-`Assests are Provided!`
+## Gaming site page
 
-![Project 3](./Gaming%20Landing%20Page.png)
+### Made using HTML and CSS
+
+[Gaming site home page](https://gaming-site-home-page.netlify.app/)
