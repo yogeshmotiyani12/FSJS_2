@@ -3,8 +3,11 @@ we apply the specificity and  and then it will apply acc to that and goes from l
 <!-- Using the important keyword is a bad idea and if we want to specify other 
     property important then we use other important element so its recommended to not use it-->
 <!-- Which is more specific will overwrite the other and comes first -->
-<!-- Ids are very specific and very hard to overwrite thats why we use classes in place of Ids -->
-<!-- For More refer specificity calcultor -> https://specificity.keegan.st/  -->
+<!-- Ids are very specific and very hard to overwrite thats why we use classes in place of Ids 
+    (ex- one single id can overwrite multiple classes)-->
+<!-- For More refer specificity calculator -> https://specificity.keegan.st/  -->
+<!-- Note -> inline styling is even more specific then the classes or id but less speacific then important so if there is a 
+inline style then its going to overwrite anything in the stylesheet(we should avoid that as it makes the styling hard)-->
 
 <!DOCTYPE html>
 <html lang="en">
