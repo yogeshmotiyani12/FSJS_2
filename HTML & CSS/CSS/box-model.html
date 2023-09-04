@@ -1,0 +1,38 @@
+<!-- Box model is basically how the content is look like what the padding , margin and border should be
+Note : - Padding is from INSIDE and MARGIN is from OUTSIDE
+border is covering the content outer part by giving some color and the property like solid dotted etc -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        .div-1 {
+            background-color: hsl(400, 80%, 50%);
+            width: 100px;
+            height: 100px;
+            padding: 10px;
+            border: 20px solid black;
+            margin: 30px;
+            box-sizing: border-box;
+
+        }
+        .div-2 {
+            background-color: hsl(200, 80%, 50%);
+            width: 100px;
+            height: 100px;
+            /* padding: 10px; */
+            margin: 30px;
+
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <div class="div-1">One</div>
+    <div class="div-2">Two</div>
+</body>
+</html>
