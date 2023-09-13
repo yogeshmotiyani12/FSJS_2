@@ -1,0 +1,103 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #555;
+}
+
+
+.modal {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    /* to use min width as 900px and max-width if we exapnd the page then will cover 80% of the screen size */
+    width: 900px;
+    max-width: 80%;
+    /* overflow: auto; */
+    background-color: white;
+    border-radius: 8px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+    border-bottom: 1px solid #777;
+    padding-bottom: .5rem;
+}
+
+
+.title{
+    font-size: 1.5rem;
+    padding-top: 1rem;
+}
+
+.close-btn{
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    align-self: flex-start;
+    padding-top: .5rem;
+}
+
+.main-body {
+    /* use flex grow to fill the full height */
+    flex-grow: 1;
+    overflow: auto;
+    padding: 1rem;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    /* gap: 1rem; */
+    padding: .5rem;
+    border-top: 1px solid #777;
+}
+
+.footer .btn {
+    margin-right: .5rem;
+}
+
+.footer .btn:last-child {
+    /* to remove the margin after the cancel btn */
+    margin-right: initial;
+}
+
+.btn{
+    padding: .5em 1em;
+    font-size: inherit;
+    border-radius: .3em;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.btn.btn-primary{
+    background-color: #1CA;
+}
+
+.btn.btn-primary:hover, .btn.btn-primary:focus{
+    background-color: #0A8;
+}
+
+
+.btn.btn-secondary{
+    background-color: #C33;
+}
+
+.btn.btn-secondary:hover, .btn.btn-secondary:focus{
+    background-color: #A11;
+}
