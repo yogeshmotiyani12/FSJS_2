@@ -1,0 +1,35 @@
+
+*{
+    box-sizing: border-box;
+}
+
+.grid-container{
+    display: grid;
+    /* auto-fill means browser will auto fill the numbers of columns for us and minmax means 
+    we can create any number of columns of size 200px and if cant fit more then grow them by 1fr to fit for the entire page*/
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+    align-items: stretch;
+    background-color: #333;
+    grid-auto-rows: 200px;
+    grid-auto-flow: dense;
+    margin: 0;
+    padding: 10px;
+}
+
+
+img{
+    /* setting the max width so that it can prevent larger than 100% of 200px */
+   /* this will help us so that image will not overflow */
+    border: 1px solid white;
+    max-width: 100%;
+}
+
+
+.wide {
+    grid-column: span 2;
+}
+
+.tall {
+    grid-row: span 2;
+}
