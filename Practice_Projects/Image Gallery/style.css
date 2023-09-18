@@ -20,7 +20,7 @@
 
 img{
     /* setting the max width so that it can prevent larger than 100% of 200px */
-   /* this will help us so that image will not overflow */
+   /* this will help us so that the image will not overflow on the screen*/
     border: 1px solid white;
     max-width: 100%;
 }
