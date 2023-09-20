@@ -1,0 +1,88 @@
+<!-- By default every element has a default position static all the static position does is follow the normal document flow-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positions</title>
+    <style>
+
+        body{
+            height: 200vh;
+        }
+        .parent {
+            padding: .25rem;
+            background-color: lightblue;
+            /* if we set the position of the parent as relative then all the child element will be positioned based on that inside the container */
+            position: relative;
+            z-index: 10;
+        }
+
+
+        .parent2   {
+            margin-top: 10px;   
+            z-index: 2;  
+            top: -25px;   }
+
+        .child1{
+            /* postion : relative keeps the element in place inside the document flow.  */
+            /* But we can set top. left, bottom , right to the element to offset it from its relative position*/
+            /* position: relative;
+            left: 10px; */
+            /* postion: absolute 100% remove the element from the document flow */
+            /* we can arrange element absolutely inside the container */
+            /* It is based on the entireity of the screen size */
+            /* position: absolute;
+            bottom: 10px; */
+            /* position:fixed always based on the screen and not the parent */
+            /* position: fixed;
+            top: 0;
+            left: 0; */
+            /* Position sticky it combines postion fixed and position relative */
+            /* Position sticky behaves like position fixed once its inside parent container */
+            /* once the parent container end then it no longer behave as  position fixed*/
+
+
+            /* Z INDEX */
+
+            /* used to put the element on the z axis  */
+            /* Z-index takes numbers larges numbers display on top of elements and smaller numbers on below the elements  */
+            position: sticky;
+            z-index: -1;
+            top: 10px;
+            /* left: 0; */
+            padding: .25rem;
+            background-color: lightcoral;
+        }
+
+        .child2{
+            padding: .25rem;
+            background-color: lightgreen;
+         }
+
+        .child3{
+            padding: .25rem;
+            background-color: peru;
+            z-index: -1;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="parent">
+        Parent
+        <div class="child1">One</div>
+        <div class="child2">Two</div>
+        <div class="child3">Three</div>
+    </div>
+    
+    <div class="parent2">
+        Parent 2
+        <div class="child1">One</div>
+        <div class="child2">Two</div>
+        <div class="child3">Three</div>
+    </div>
+</body>
+</html>
